@@ -1,0 +1,151 @@
+/* SHOWCASE SECTION STARTS */
+.showcase-services{
+  background: url(../Images/services.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  height: 100vh;
+  position: relative;
+  color: var(--white-color);
+}
+.showcase-services p{
+  font-size: 30px;  
+}
+@media (max-width: 767.98px) {
+  .showcase-services p{
+    font-size: 25px;  
+  }
+}
+
+.showcase-services .circle{
+  background:rgba(255, 255, 255, 0.9); 
+  display: inline-block;
+  position: absolute;
+  top: 40%;
+  padding: 45px;
+  border-radius: 50%;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.showcase-services .abso{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+@media (max-width: 1967.98px) {
+  .showcase-services .abso{
+    top: 20%;
+  }
+}
+@media (max-width: 1367.98px) {
+  .showcase-services .abso{
+    top: 30%;
+  }
+}
+@media (max-width: 767.98px) {
+  .showcase-services .abso{
+    top: 40%;
+  }
+}
+/* SHOWCASE SECTION   ENDS */
+
+/*FACE WORKOUT SECTION  STARTS */
+.face-workout{
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
+  text-align: center;
+  height: 80vh;
+}
+.face-workout .big{
+  font-size: 48px;
+}
+@media (max-width: 767.98px) {
+  .face-workout .big{
+    font-size: 30px;
+  }
+}
+/*FACE WORKOUT SECTION  ENDS */
+
+/*PIGMENTATION SECTION  STARTS */
+.pigmentation{
+  background: rgba(0, 0, 0, 0.2) url(../Images/BackAndWhite.jpg);
+  background-blend-mode: darken;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--white-color);
+}
+.pigmentation p{
+  font-size: 40px;
+} 
+@media (max-width: 767.98px) {
+  .pigmentation p{
+    font-size: 30px;
+  } 
+}
+.pigmentation  .bold{
+  font-weight: 500;
+  font-style: italic;
+}
+/*PIGMENTATION SECTION  ENDS */
+
+
+/* TREATMENT SECTION STARTS */
+.treatment .offer{
+  font-size: 20px;
+}
+.treatment #treatment{
+  font-size: 65px;
+  color: var(--secondary-color);
+}
+@media (max-width: 767.98px) {
+  .treatment #treatment{
+    font-size: 35px;
+  }
+}
+.treatment #treatments{
+  font-size: 30px;
+}
+@media (max-width: 767.98px) {
+  .treatment #treatments{
+    font-size: 25px;
+  }
+}
+.treatment .treatment-color{
+  color: var(--primary-color);
+  font-weight: 500;
+}
+.treatment .images{
+  width: 50px;
+  border-radius: 50%;
+  display: inline;
+}
+.orange-icon{
+  border-radius: 50%;
+  animation: updown 3s linear infinite;
+}
+@keyframes updown {
+  0%{
+    transform: translateX(-20px);
+  }
+  50%{
+    transform: translateX(20px);
+  }
+  100%{
+    transform: translateX(-20px);
+  }
+}
+/* TREATMENT SECTION ENDS */
+

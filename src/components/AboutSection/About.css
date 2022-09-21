@@ -1,0 +1,94 @@
+.showcase-about {
+  background: url(../Images/showcase_about.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  height: 100vh;
+  position: relative;
+  color: var(--white-color);
+}
+.showcase-about p {
+  font-size: 30px;
+}
+@media (max-width: 767.98px) {
+  .showcase-about p {
+    font-size: 25px;
+  }
+}
+
+.showcase-about .circle {
+  background: rgba(255, 255, 255, 0.9);
+  display: inline-block;
+  position: absolute;
+  top: 25%;
+  right: 13%;
+  padding: 45px;
+  border-radius: 50%;
+  text-align: center;
+  color: var(--primary-color);
+}
+@media (max-width: 767.98px) {
+  .showcase-about .circle {
+    right: 8%;
+  }
+}
+
+.showcase-about .abso {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+@media (max-width: 1967.98px) {
+  .showcase-about .abso {
+    top: 20%;
+  }
+}
+@media (max-width: 1367.98px) {
+  .showcase-about .abso {
+    top: 30%;
+  }
+}
+@media (max-width: 767.98px) {
+  .showcase-about .abso {
+    top: 35%;
+  }
+}
+/* SHOWCASE SECTION ENDS */
+
+/* ABOUT SECTION STARTS */
+.about{
+  background: url(../Images/about.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about .about-card{
+  background: var(--secondary-color);
+  border-bottom-right-radius: 130px;
+  border-bottom-left-radius: 130px;
+  position: relative;
+  cursor: pointer;
+
+}
+.about-card .bi{
+  position: absolute;
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid var(--white-color);
+  right: 0;
+  left: 0;
+  margin: auto;
+  margin-top: -110px;
+}
+@media (max-width: 767.98px) {
+  .middle-card{
+    margin-bottom: 90px;
+  }
+}
+@media (max-width: 767.98px) {
+  .top-card{
+    margin-bottom: 90px;
+  }
+}
