@@ -1,3 +1,15 @@
+# A Skin Care Website Built With React 
+
+## Home Section
+![screencapture-clearskin-netlify-app-2022-09-21-15_05_34](https://user-images.githubusercontent.com/103048589/191527857-155f5694-e283-479f-bd97-0859b7c2d10b.png)
+
+## About Section
+![screencapture-clearskin-netlify-app-about-2022-09-21-15_06_23 (4)](https://user-images.githubusercontent.com/103048589/191528062-5c9dbb1b-4ce6-4308-9c23-679ec1668a3e.png)
+
+## Services Section
+![screencapture-clearskin-netlify-app-services-2022-09-21-15_07_11](https://user-images.githubusercontent.com/103048589/191528185-4d5c872d-ca15-4570-97cc-e715418184cc.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
